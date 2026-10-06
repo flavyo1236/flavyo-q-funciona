@@ -34,7 +34,7 @@ php -S localhost:8090 index.php
 
 ### GET /status
 - Método: GET
-- URL: http://localhost:8080/status
+- URL: http://localhost:8090/status
 - Objetivo: Verificar se a API está funcionando.
 - Exemplo de requisição:
 ```http
@@ -49,7 +49,7 @@ GET /status
 
 ### GET /missoes
 - Método: GET
-- URL: http://localhost:8080/missoes
+- URL: http://localhost:8090/missoes
 - Objetivo: Listar todas as missões cadastradas.
 - Exemplo de requisição:
 ```http
@@ -89,7 +89,7 @@ GET /missoes/1
 
 ### POST /missoes
 - Método: POST
-- URL: http://localhost:8080/missoes
+- URL: http://localhost:8090/missoes
 - Objetivo: Cadastrar uma nova missão.
 - Exemplo de requisição:
 ```json
@@ -113,7 +113,7 @@ GET /missoes/1
 
 ### PUT /missoes/{id}
 - Método: PUT
-- URL: http://localhost:8080/missoes/6
+- URL: http://localhost:8090/missoes/6
 - Objetivo: Atualizar uma missão existente.
 - Exemplo de requisição:
 ```json
@@ -137,7 +137,7 @@ GET /missoes/1
 
 ### DELETE /missoes/{id}
 - Método: DELETE
-- URL: http://localhost:8080/missoes/6
+- URL: http://localhost:8090/missoes/6
 - Objetivo: Remover uma missão pelo ID.
 - Exemplo de requisição:
 ```http
