@@ -33,5 +33,12 @@
         "ano": 2021,
         "agencia": "NASA \/ ESA \/ CSA",
         "status": "Em operação"
+    },
+    {
+        "id": 6,
+        "nome": "Artemis III",
+        "ano": 2027,
+        "agencia": "NASA",
+        "status": "Em preparação"
     }
 ]
